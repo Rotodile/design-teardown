@@ -61,12 +61,6 @@ div {
 a {
     text-decoration: none;
     padding: 10px 0;
-    background-image: linear-gradient(currentColor,currentColor);
-    background-repeat: no-repeat;
-    background-size: 100% 1.5px;
-    background-position: center bottom 29%;
-    background-origin: padding-box;
-    text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
     transition: color .1s ease-out;
     color: #2da2c5;
     cursor: pointer;
@@ -519,4 +513,44 @@ footer {
 footer h4 {
     text-align: center;
     color: #fff;
+}
+
+.footer-content {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 7%;
+}
+
+.footer-content li a {
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-content li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer p {
+   text-align: center;
+   color: white;
+   line-height: 25px;
+}
+
+.last-footer-content {
+    display: block; 
+    text-align: center;
+}
+
+.last-footer-content li {
+    display: inline-block;
+    line-height: 40px; 
+}
+
+.last-footer-content li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
+    margin-left: 15px;
 }
